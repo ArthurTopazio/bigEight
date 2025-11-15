@@ -137,3 +137,5 @@ console.log(coffee.description(), coffee.cost());
 coffee = new CaramelDecorator(coffee);
 
 console.log(coffee.description(), coffee.cost());
+
+coffee.cost();
